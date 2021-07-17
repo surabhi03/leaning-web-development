@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <h1>SignUp Form</h1>
+    <input type="text" placeholder="First name" ><br> <br> 
+    <!--input tag is used where we have to take input in box or something-->
+    <input type="text" placeholder="Last name" > <br> <br> 
+    <!--placeholder is used to show the name of input what input should be given to it.... 
+        inside a box it is mentioned-->
+    <input type="email" placeholder="email" ><br> <br> 
+    <!--br for new line-->
+    <input type="password" placeholder="password"> <br> <br>
+    <p> <em> <strong>select your gender</strong></em></p> <!--strong-> for bold and em for italic-->
+    <!--label is used for title for given input-->
+    <label for="Male" > <mark>Male</mark></label> <!--mark is used for highlighting-->
+    <!--radio buttons-->
+    <!--radio buttons are used to describe set of related options
+    one radio button in a group can be selected at the same time ,, we have to give a (name="gender" )
+   as given below all name should be same in order to select only one option from male female and others
+if we donot five same name then m ultiple options will be selected.-->
+    <input type="radio" name="gender" id="male"><br> <br>
+    <label for="female" >Female</label>
+    <input type="radio" name="gender" id="female"> <br> <br>
+    <label for="other">Other</label>
+    <input type="radio" name="gender" id="other"><br> <br>
+    <!--dropdown list-->
+    <label for="country">Country</label>
+    <select name="" id="country">
+        <option value="India">India</option>
+        <option value="Nepal">Nepal</option>
+        <option value="America">America</option>
+        <option value="Dubai">Dubai</option>
+    </select>
+    <form>
+        <!--textarea is used to provide space for writing comments-->
+        <p> Write about yourself below </p>
+        <textarea name="" id=""  row="20" col="30"></textarea>
+        pick color : <input type="color" name="" id="" > <br> <br>
+        <input type="submit" value="submit" > <!--we can use button instead of input-->
+        
+
+
+    </form>
+</body>
+</html>
