@@ -1,0 +1,18 @@
+h1{
+    font-family: 'Source Sans Pro', sans-serif; /* from google fonts css style */
+    color:chartreuse
+    
+}
+body{  /* to change he color of body paragraph */
+     color:darkgoldenrod  /*color  */
+    color:rgb(136, 29, 29) ;  /*for more colours go to color picker google it */
+    /* from color picker #5442f5 */
+    color:#5442f5;  /*this is hex code value total of 6 numbers first tow is red then other two is green and last two is blue*/
+    /* so above were the color format */
+    /* background-color:#5442f5;   */
+} 
+/* for pure red color (red,green,blue)   ----(255,0,0) for pure red color */
+/* for more color google it */
+#main-heading{
+    background-color: silver;
+}
